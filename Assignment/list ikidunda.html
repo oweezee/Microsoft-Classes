@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+container {
+  width: 220px;
+  height: 300px;
+  border: 1px solid #c3c3c3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: end;
+}
+
+container > div {
+  width: 70px;
+  height: 70px;
+}
+</style>
+  <link href="CSS/dropdown.css" rel="stylesheet"> <!-- Include CSS File Here-->
+
+</head>
+<body>
+
+<h2></h2>
+
+<form action="/action_page.php">
+  <fieldset>
+    <legend>STYLED SELECT OPTION FIELD FORM</legend>
+    <label for="fname">NAME:</label><br>
+    <input type="text" id="fname" name="fname" value=""><br>
+    <label for="lname">EMAIL:</label><br>
+    <input type="text" id="lname" name="lname" value=""><br><br>
+<select>
+<option>--- Choose Age From Here ---</option>
+<option>Below 18 years</option>
+<option>Between 18-25 years</option>
+<option>Between 25-40 years</option>
+<option>Between 40-60 years</option>
+<option>Above 60 years</option>
+</select>
+    <br>
+
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+
+</body>
+</html>
+
